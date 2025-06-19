@@ -27,11 +27,12 @@
         slidesPerView: 1,
         speed:1500,
         spaceBetween: 0,
-        loop: true,
+        // loop: true,
+		once:true,
         effect: "fade",
-        autoplay: {
-            delay: 6000,
-        },
+        // autoplay: {
+        //     delay: 6000,
+        // },
         pagination: {
             el: ".tp-hero-slider-pagenation",
             clickable: true,
