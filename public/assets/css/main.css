@@ -123,12 +123,15 @@ li,
   --tp-common-black: #000;
   --tp-common-white-2: #f6f6f6;
   --tp-common-yellow: #fdc93a;
+  /* --tp-grey-1: #506767; */
   --tp-grey-1: #506767;
   --tp-grey-2: #354c4c;
   --tp-grey-3: #e5ebea;
   --tp-grey-4: #f3f4f4;
-  --tp-theme-primary: #1f3130;
-  --tp-theme-secondary: #f8d0b3;
+  /* --tp-theme-primary: #1f3130; */
+  --tp-theme-primary: #001d49;
+  /* --tp-theme-secondary: #f8d0b3; */
+   --tp-theme-secondary: #ff5f15;
   --tp-border-1: rgba(31, 49, 48, 0.1);
   --tp-border-2: rgba(31, 49, 48, 0.12);
   --tp-border-3: rgba(255, 255, 255, 0.55);
@@ -6753,7 +6756,7 @@ body.tp-magic-cursor #magic-cursor {
   }
 }
 .tp-hero-gsap-team-spacing {
-  padding-top: 190px;
+  padding-top: 145px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
   .tp-hero-gsap-team-spacing {
