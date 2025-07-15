@@ -3072,7 +3072,7 @@ input[type=color] {
 }
 
 .tp-text-theme-primary {
-  color: var(--tp-theme-primary);
+  color: #ffffff
 }
 
 .tp-bg-theme-primary {
@@ -4035,7 +4035,7 @@ input[type=color] {
   color: var(--tp-theme-secondary);
 }
 .tpoffcanvas__logo {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tpoffcanvas__logo {
