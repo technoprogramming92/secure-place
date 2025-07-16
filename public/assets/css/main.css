@@ -91,7 +91,8 @@
 /*  1.1 Theme Default
 /*----------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet');
-.back-to-top-wrapper, a,
+.back-to-top-wrapper,
+a,
 button,
 p,
 input,
@@ -111,10 +112,10 @@ li,
   /**
   @font family declaration
   */
-  --tp-ff-body: 'DM Sans', sans-serif;
-  --tp-ff-heading: 'DM Serif Display', serif;
-  --tp-ff-dm: 'DM Serif Display', serif;
-  --tp-ff-p: 'DM Sans', sans-serif;
+  --tp-ff-body: "DM Sans", sans-serif;
+  --tp-ff-heading: "DM Serif Display", serif;
+  --tp-ff-dm: "DM Serif Display", serif;
+  --tp-ff-p: "DM Sans", sans-serif;
   --tp-ff-fontawesome: "Font Awesome 6 Pro";
   /**
   @color declaration
@@ -131,7 +132,7 @@ li,
   /* --tp-theme-primary: #1f3130; */
   --tp-theme-primary: #001d49;
   /* --tp-theme-secondary: #f8d0b3; */
-   --tp-theme-secondary: #ff5f15;
+  --tp-theme-secondary: #ff5f15;
   --tp-border-1: rgba(31, 49, 48, 0.1);
   --tp-border-2: rgba(31, 49, 48, 0.12);
   --tp-border-3: rgba(255, 255, 255, 0.55);
@@ -262,12 +263,12 @@ button:focus {
   text-transform: capitalize;
 }
 
-input[type=text],
-input[type=email],
-input[type=tel],
-input[type=number],
-input[type=password],
-input[type=url],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
 textarea {
   outline: none;
   background-color: #fff;
@@ -281,80 +282,80 @@ textarea {
   border-radius: 4px;
   border: 1px solid var(--tp-common-white);
 }
-input[type=text]::-webkit-input-placeholder,
-input[type=email]::-webkit-input-placeholder,
-input[type=tel]::-webkit-input-placeholder,
-input[type=number]::-webkit-input-placeholder,
-input[type=password]::-webkit-input-placeholder,
-input[type=url]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: var(--tp-grey-2);
 }
-input[type=text]::-moz-placeholder,
-input[type=email]::-moz-placeholder,
-input[type=tel]::-moz-placeholder,
-input[type=number]::-moz-placeholder,
-input[type=password]::-moz-placeholder,
-input[type=url]::-moz-placeholder,
+input[type="text"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="url"]::-moz-placeholder,
 textarea::-moz-placeholder {
   /* Firefox 19+ */
   color: var(--tp-grey-2);
 }
-input[type=text]:-moz-placeholder,
-input[type=email]:-moz-placeholder,
-input[type=tel]:-moz-placeholder,
-input[type=number]:-moz-placeholder,
-input[type=password]:-moz-placeholder,
-input[type=url]:-moz-placeholder,
+input[type="text"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="tel"]:-moz-placeholder,
+input[type="number"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="url"]:-moz-placeholder,
 textarea:-moz-placeholder {
   /* Firefox 4-18 */
   color: var(--tp-grey-2);
 }
-input[type=text]:-ms-input-placeholder,
-input[type=email]:-ms-input-placeholder,
-input[type=tel]:-ms-input-placeholder,
-input[type=number]:-ms-input-placeholder,
-input[type=password]:-ms-input-placeholder,
-input[type=url]:-ms-input-placeholder,
+input[type="text"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="url"]:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   /* IE 10+  Edge*/
   color: var(--tp-grey-2);
 }
-input[type=text]::placeholder,
-input[type=email]::placeholder,
-input[type=tel]::placeholder,
-input[type=number]::placeholder,
-input[type=password]::placeholder,
-input[type=url]::placeholder,
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder,
+input[type="url"]::placeholder,
 textarea::placeholder {
   /* MODERN BROWSER */
   color: var(--tp-grey-2);
 }
-[dir=rtl] input[type=text],
-[dir=rtl] input[type=email],
-[dir=rtl] input[type=tel],
-[dir=rtl] input[type=number],
-[dir=rtl] input[type=password],
-[dir=rtl] input[type=url],
-[dir=rtl] textarea {
+[dir="rtl"] input[type="text"],
+[dir="rtl"] input[type="email"],
+[dir="rtl"] input[type="tel"],
+[dir="rtl"] input[type="number"],
+[dir="rtl"] input[type="password"],
+[dir="rtl"] input[type="url"],
+[dir="rtl"] textarea {
   text-align: right;
 }
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=tel]:focus,
-input[type=number]:focus,
-input[type=password]:focus,
-input[type=url]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
 textarea:focus {
   border-color: var(--tp-theme-primary);
 }
-input[type=text]:focus::placeholder,
-input[type=email]:focus::placeholder,
-input[type=tel]:focus::placeholder,
-input[type=number]:focus::placeholder,
-input[type=password]:focus::placeholder,
-input[type=url]:focus::placeholder,
+input[type="text"]:focus::placeholder,
+input[type="email"]:focus::placeholder,
+input[type="tel"]:focus::placeholder,
+input[type="number"]:focus::placeholder,
+input[type="password"]:focus::placeholder,
+input[type="url"]:focus::placeholder,
 textarea:focus::placeholder {
   opacity: 0;
 }
@@ -365,7 +366,7 @@ textarea {
   padding-bottom: 17px;
 }
 
-input[type=color] {
+input[type="color"] {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -483,7 +484,10 @@ input[type=color] {
 .gx-60 {
   --bs-gutter-x: 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .gx-60 {
     --bs-gutter-x: 30px;
   }
@@ -497,7 +501,10 @@ input[type=color] {
     --bs-gutter-x: 50px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .gx-90 {
     --bs-gutter-x: 30px;
   }
@@ -719,7 +726,8 @@ input[type=color] {
 }
 
 .underline-black {
-  background-image: linear-gradient(#1f3130, #1f3130), linear-gradient(#1f3130, #1f3130);
+  background-image: linear-gradient(#1f3130, #1f3130),
+    linear-gradient(#1f3130, #1f3130);
   background-size: 0 1px, 0 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -731,7 +739,8 @@ input[type=color] {
   transition: all 0.4s ease 0.3s 0s ease-out;
 }
 .underline-black:hover {
-  background-image: linear-gradient(#1f3130, #1f3130), linear-gradient(#1f3130, #1f3130);
+  background-image: linear-gradient(#1f3130, #1f3130),
+    linear-gradient(#1f3130, #1f3130);
   background-size: 0 1px, 100% 1px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -797,7 +806,11 @@ input[type=color] {
   z-index: 3;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .br br {
     display: none;
   }
@@ -3072,7 +3085,7 @@ input[type=color] {
 }
 
 .tp-text-theme-primary {
-  color: #ffffff
+  color: var(--tp-theme-primary);
 }
 
 .tp-bg-theme-primary {
@@ -3315,7 +3328,8 @@ input[type=color] {
 }
 
 .tp-arrow-angle path {
-  transition: transform 0.38s cubic-bezier(0.37, 0.08, 0.02, 0.93), opacity 0.18s ease-out;
+  transition: transform 0.38s cubic-bezier(0.37, 0.08, 0.02, 0.93),
+    opacity 0.18s ease-out;
 }
 
 .tp-arrow-angle path:nth-of-type(1) {
@@ -3325,7 +3339,8 @@ input[type=color] {
 }
 
 .tp-arrow-angle path:nth-of-type(2) {
-  transform: translateX(calc(-1 * var(--qode-hover-move-x))) translateY(var(--qode-hover-move-y));
+  transform: translateX(calc(-1 * var(--qode-hover-move-x)))
+    translateY(var(--qode-hover-move-y));
   opacity: 0.5;
   transition-delay: 0s, 0s;
 }
@@ -3337,7 +3352,8 @@ input[type=color] {
 }
 
 .tp-left-right:hover .tp-arrow-angle path:nth-of-type(1) {
-  transform: translateX(var(--qode-hover-move-x)) translateY(calc(-1 * var(--qode-hover-move-y)));
+  transform: translateX(var(--qode-hover-move-x))
+    translateY(calc(-1 * var(--qode-hover-move-y)));
   opacity: 0;
   transition-delay: 0s, 0s;
 }
@@ -3363,13 +3379,16 @@ input[type=color] {
 /* animate-pulse */
 @keyframes animate-pulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), 0 0 0 0 rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8),
+      0 0 0 0 rgba(255, 255, 255, 0.8);
   }
   40% {
-    box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 0 rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 0 50px rgba(255, 109, 74, 0),
+      0 0 0 0 rgba(255, 255, 255, 0.8);
   }
   80% {
-    box-shadow: 0 0 0 50px rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0);
+    box-shadow: 0 0 0 50px rgba(255, 109, 74, 0),
+      0 0 0 30px rgba(255, 109, 74, 0);
   }
   100% {
     box-shadow: 0 0 0 0 rgba(255, 109, 74, 0), 0 0 0 30px rgba(255, 109, 74, 0);
@@ -3518,7 +3537,8 @@ input[type=color] {
 
 /*img-animation**********************/
 .img-custom-anim-right {
-  animation: img-anim-right 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s;
+  animation: img-anim-right 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1)
+    0.4s;
   opacity: 0;
 }
 
@@ -3535,7 +3555,8 @@ input[type=color] {
   }
 }
 .img-custom-anim-left {
-  animation: img-anim-left 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s;
+  animation: img-anim-left 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1)
+    0.4s;
   opacity: 0;
 }
 
@@ -3688,7 +3709,7 @@ input[type=color] {
 .loading {
   width: 60px;
   aspect-ratio: 2;
-  --_g: no-repeat radial-gradient(circle closest-side,#f8d0b3 90%,#0000);
+  --_g: no-repeat radial-gradient(circle closest-side, #f8d0b3 90%, #0000);
   background: var(--_g) 0% 50%, var(--_g) 50% 50%, var(--_g) 100% 50%;
   background-size: 33.3333333333% 50%;
   animation: l3 1s infinite linear;
@@ -3743,7 +3764,9 @@ input[type=color] {
 .nice-select:hover {
   border-color: #dbdbdb;
 }
-.nice-select:active, .nice-select.open, .nice-select:focus {
+.nice-select:active,
+.nice-select.open,
+.nice-select:focus {
   border-color: #999;
 }
 .nice-select::after {
@@ -3833,7 +3856,8 @@ input[type=color] {
   -webkit-transform: scale(0.75) translateY(-21px);
   -ms-transform: scale(0.75) translateY(-21px);
   transform: scale(0.75) translateY(-21px);
-  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
+    opacity 0.15s ease-out;
   transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
   z-index: 9;
 }
@@ -4087,7 +4111,7 @@ input[type=color] {
   line-height: 36px;
   text-align: center;
   font-size: 16px;
-  border: 1px solid #EAEAEF;
+  border: 1px solid #eaeaef;
   color: var(--tp-common-black);
   margin-right: 15px;
   transition: 0.3s;
@@ -4115,7 +4139,12 @@ input[type=color] {
 .tp-offcanvas-menu ul li .tp-submenu .homemenu.comeing-soon .homemenu-thumb {
   position: relative;
 }
-.tp-offcanvas-menu ul li .tp-submenu .homemenu.comeing-soon .homemenu-thumb::before {
+.tp-offcanvas-menu
+  ul
+  li
+  .tp-submenu
+  .homemenu.comeing-soon
+  .homemenu-thumb::before {
   position: absolute;
   z-index: 22;
   top: 0;
@@ -4143,7 +4172,8 @@ input[type=color] {
   visibility: hidden;
   transition: all 0.4s ease;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-offcanvas-menu ul li .tp-submenu .homemenu-btn .tp-btn-lg {
     padding: 12px 17px;
     font-size: 14px;
@@ -4155,7 +4185,11 @@ input[type=color] {
 /*----------------------------------------*/
 .tp-breadcrumb-content {
   backdrop-filter: blur(20px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.01) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.01) 100%
+  );
   border-radius: 4px 4px 0 0;
   padding: 52px 30px 52px 60px;
 }
@@ -4165,7 +4199,9 @@ input[type=color] {
     padding: 32px 30px 32px 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-breadcrumb-spacing {
     padding-top: 120px;
   }
@@ -4187,7 +4223,10 @@ input[type=color] {
 /*----------------------------------------*/
 /*  2.11 Section Title
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-section-title {
     font-size: 45px;
   }
@@ -4206,13 +4245,15 @@ input[type=color] {
   padding-left: 50px;
   padding-right: 50px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-section-x-spacing {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-section-x-spacing {
     padding-left: 15px;
     padding-right: 15px;
@@ -4237,10 +4278,12 @@ input[type=color] {
   -webkit-transform: translateY(calc(-100% - 80px));
   -ms-transform: translateY(calc(-100% - 80px));
   transform: translateY(calc(-100% - 80px));
-  -webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    -webkit-transform 0.3s ease-in-out;
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
   z-index: 9999;
@@ -4710,7 +4753,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-header-left {
   gap: 96px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-header-left {
     gap: 40px;
   }
@@ -4737,7 +4783,10 @@ body.tp-magic-cursor #magic-cursor {
     margin-left: 10px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-header-lg-space {
     padding: 10px 20px;
   }
@@ -4782,7 +4831,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-header-2-info ul li a:hover {
   color: var(--tp-grey-1);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-header-2-main {
     padding: 15px 0px;
   }
@@ -4806,7 +4858,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-header-2-right .tp-main-menu > nav > ul > li:not(:last-child) {
   margin-right: 14px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-header-2-right .tp-main-menu > nav > ul > li:not(:last-child) {
     margin-right: 3px;
   }
@@ -4821,7 +4877,11 @@ body.tp-magic-cursor #magic-cursor {
     padding: 9px 17px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-header-2-right .tp-main-menu {
     margin-right: 30px;
   }
@@ -4833,7 +4893,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-header-3-main {
   border-bottom: 1px solid rgba(31, 49, 48, 0.1);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-header-3-main {
     padding: 10px 0;
   }
@@ -4851,7 +4914,11 @@ body.tp-magic-cursor #magic-cursor {
   align-items: center;
   margin-right: 80px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-header-3-location ul li {
     margin-right: 40px;
   }
@@ -4906,7 +4973,10 @@ body.tp-magic-cursor #magic-cursor {
   padding: 5px 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-header-8-main {
     padding: 15px 0px;
   }
@@ -4948,7 +5018,11 @@ body.tp-magic-cursor #magic-cursor {
 .header-sticky .tp-header-2-right .tp-main-menu > nav > ul > li > a {
   padding: 9px 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .header-sticky .tp-header-2-right .tp-main-menu > nav > ul > li > a {
     padding: 9px 17px;
   }
@@ -4975,7 +5049,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-main-menu > nav > ul > li:not(:last-child) {
   margin-right: 40px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-main-menu > nav > ul > li:not(:last-child) {
     margin-right: 18px;
   }
@@ -5109,34 +5186,89 @@ body.tp-magic-cursor #magic-cursor {
 .tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper {
   padding: 30px 30px 0px 30px;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu {
   margin-bottom: 25px;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu:hover .homemenu-btn {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu:hover
+  .homemenu-btn {
   opacity: 1;
   visibility: visible;
   top: 50%;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-thumb {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-thumb {
   height: 250px;
   border-radius: 4px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
-  .tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-thumb {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
+  .tp-main-menu
+    > nav
+    > ul
+    > li
+    .tp-main-mega-menu
+    .tp-homemenu-wrapper
+    .homemenu-thumb {
     height: auto;
   }
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-thumb a {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-thumb
+  a {
   padding: 0;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-thumb img {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-thumb
+  img {
   transition: all 0.4s ease;
   object-fit: cover;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-thumb:hover img {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-thumb:hover
+  img {
   transform: scale(1.06);
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-btn {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-btn {
   position: absolute;
   top: 55%;
   transform: translateY(-50%);
@@ -5147,28 +5279,68 @@ body.tp-magic-cursor #magic-cursor {
   visibility: hidden;
   transition: all 0.4s ease;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-thumb-wrap {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-thumb-wrap {
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position: relative;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-title {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
   color: var(--tp-theme-primary);
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-title a {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-title
+  a {
   padding: 0;
   color: var(--tp-theme-primary);
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .homemenu-title a:hover {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .homemenu-title
+  a:hover {
   color: var(--tp-grey-1);
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .comeing-soon .homemenu-thumb {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .comeing-soon
+  .homemenu-thumb {
   position: relative;
 }
-.tp-main-menu > nav > ul > li .tp-main-mega-menu .tp-homemenu-wrapper .comeing-soon .homemenu-thumb::before {
+.tp-main-menu
+  > nav
+  > ul
+  > li
+  .tp-main-mega-menu
+  .tp-homemenu-wrapper
+  .comeing-soon
+  .homemenu-thumb::before {
   position: absolute;
   z-index: 22;
   top: 0;
@@ -5187,7 +5359,11 @@ body.tp-magic-cursor #magic-cursor {
   margin-left: 82px;
   margin-right: 50px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-main-menu-8 > nav > ul {
     margin-left: 0;
   }
@@ -5195,7 +5371,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-main-menu-8 > nav > ul > li:not(:last-child) {
   margin-right: 61px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-main-menu-8 > nav > ul > li:not(:last-child) {
     margin-right: 30px;
   }
@@ -5256,7 +5436,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-offcanvas-menu ul li .tp-submenu.submenu {
   padding-left: 20px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-offcanvas-menu .tp-main-mega-menu {
     padding-left: 0 !important;
   }
@@ -5303,7 +5486,10 @@ body.tp-magic-cursor #magic-cursor {
     padding: 20px 20px 20px 20px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-postbox-meta-single.mr-50 {
     margin-right: 25px;
   }
@@ -5336,7 +5522,11 @@ body.tp-magic-cursor #magic-cursor {
   left: auto;
   right: 40px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-postbox-wrapper {
     margin-right: 0;
   }
@@ -5408,7 +5598,11 @@ body.tp-magic-cursor #magic-cursor {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-postbox-details-wrapper {
     margin-right: 0;
   }
@@ -5424,7 +5618,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-postbox-comment ul li.ckildren {
   padding-left: 115px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-postbox-comment ul li.ckildren {
     padding-left: 0;
   }
@@ -5473,7 +5668,11 @@ body.tp-magic-cursor #magic-cursor {
   height: 60px;
   padding-top: 10px;
   backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
 }
 .tp-blog-date span {
   transform: translateY(-5px);
@@ -5516,7 +5715,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-2-wrap:hover .tp-blog-2-thumb img {
   transform: scale(1.06);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-2-wrap {
     margin-right: 0;
   }
@@ -5524,7 +5726,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-2-content {
   padding: 10px 10px 10px 66px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-2-content {
     margin-top: 20px;
     padding: 10px 10px 10px 10px;
@@ -5540,7 +5745,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-2-thumb img {
   transition: all 0.3s ease;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-2-thumb {
     margin-right: 0;
   }
@@ -5549,7 +5757,10 @@ body.tp-magic-cursor #magic-cursor {
   height: 100%;
   margin-left: -30px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-2-right-wrap {
     margin-left: 0;
   }
@@ -5563,7 +5774,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-2-right-wrap .tp-blog-2-content-2 {
   padding: 55px 60px 55px 60px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-2-right-wrap .tp-blog-2-content-2 {
     padding: 35px 30px 35px 30px;
   }
@@ -5586,7 +5801,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-4-thumb {
   overflow: hidden;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-4-thumb {
     margin-right: 0;
   }
@@ -5602,7 +5818,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-4-spacing {
   margin: 0 126px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-4-spacing {
     margin: 0;
   }
@@ -5610,17 +5831,28 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-4-spacing-2 {
   margin-bottom: 40px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-4-spacing-2 {
     margin-bottom: 0;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-4-content {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-4-content .title br {
     display: none;
   }
@@ -5631,7 +5863,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-6-right-wrap .tp-blog-2-content-2 {
   padding: 40px 40px 50px 40px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-6-right-wrap .tp-blog-2-content-2 {
     padding: 25px 20px 25px 20px;
   }
@@ -5645,7 +5880,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-blog-7-right-wrap .tp-blog-2-content-2 {
   padding: 50px 50px 50px 50px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-blog-7-right-wrap .tp-blog-2-content-2 {
     padding: 25px 20px 25px 20px;
   }
@@ -5748,7 +5986,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-sidebar-widget-content {
   padding: 35px 40px 30px 40px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  (max-width: 574.98px) {
   .tp-sidebar-widget-content {
     padding: 25px 15px 20px 15px;
   }
@@ -5797,7 +6036,11 @@ body.tp-magic-cursor #magic-cursor {
   padding: 12px 70px 12px 12px;
   border-radius: 4px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-sidebar-rc-post {
     padding: 12px 20px 12px 12px;
   }
@@ -5817,7 +6060,10 @@ body.tp-magic-cursor #magic-cursor {
 /*----------------------------------------*/
 /*  6.1 Footer Style 1
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-footer-widget {
     margin-left: 0;
   }
@@ -5852,7 +6098,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-footer-meinus {
   margin-left: -20px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-footer-meinus {
     margin-left: 0;
   }
@@ -5885,7 +6134,10 @@ body.tp-magic-cursor #magic-cursor {
   background: var(--tp-theme-secondary);
   border-radius: 4px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-footer-3-form {
     margin-left: 0;
   }
@@ -5922,7 +6174,11 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-footer-3-bottom {
   backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
   border-radius: 40px;
   padding: 29px 20px;
 }
@@ -5993,12 +6249,17 @@ body.tp-magic-cursor #magic-cursor {
   padding-top: 150px;
   padding-bottom: 350px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-spacing {
     padding-top: 120px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-spacing {
     padding-bottom: 40px;
   }
@@ -6056,7 +6317,11 @@ body.tp-magic-cursor #magic-cursor {
   position: relative;
   border-radius: 18px;
   backdrop-filter: blur(10px);
-  background: linear-gradient(140deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
   padding-left: 30px;
   border: transparent;
 }
@@ -6070,26 +6335,42 @@ body.tp-magic-cursor #magic-cursor {
   padding: 54px 60px 60px 50px;
   z-index: 2;
   backdrop-filter: blur(40px);
-  background: linear-gradient(140deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
   float: right;
   margin-right: -170px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-contact {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-contact {
     margin-bottom: 170px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-contact {
     float: left;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-contact {
     padding: 24px 20px 20px 15px;
     margin-bottom: 220px;
@@ -6167,7 +6448,7 @@ body.tp-magic-cursor #magic-cursor {
   height: 40px;
   flex: 0 0 auto;
   line-height: 40px;
-  background: #C5CDCC;
+  background: #c5cdcc;
   transform: translateY(6px);
 }
 .tp-hero-2-thumb img {
@@ -6187,12 +6468,17 @@ body.tp-magic-cursor #magic-cursor {
   top: 292px;
   right: 130px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-2-content {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-2-right-content {
     margin-top: 40px;
   }
@@ -6202,12 +6488,14 @@ body.tp-magic-cursor #magic-cursor {
   position: relative;
   overflow: hidden;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-hero-video-start {
     padding-top: 200px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-video-start {
     padding-top: 150px;
   }
@@ -6216,7 +6504,7 @@ body.tp-magic-cursor #magic-cursor {
   --clip-path: circle(65px at left);
   --clip-path-hover: circle(70px at left);
   --clip-path-clicked: circle(100vw at left);
-  --duration: .4s;
+  --duration: 0.4s;
   --timing-function: ease;
   display: flex;
   justify-content: center;
@@ -6228,7 +6516,9 @@ body.tp-magic-cursor #magic-cursor {
   height: 100%;
   z-index: 1;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-video-start .wrapper {
     display: none;
   }
@@ -6240,7 +6530,11 @@ body.tp-magic-cursor #magic-cursor {
   top: -115px;
   height: 200px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-video-start .video-info {
     left: 300px;
   }
@@ -6410,25 +6704,41 @@ body.tp-magic-cursor #magic-cursor {
   border-right: 1px solid rgba(31, 49, 48, 0.1);
   padding-right: 90px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-3-content {
     padding-right: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-3-content {
     border-right: none;
     padding-right: 0;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-3-content h2 {
     font-size: 60px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-hero-3-content h2 {
     font-size: 50px;
   }
@@ -6445,7 +6755,10 @@ body.tp-magic-cursor #magic-cursor {
   right: 0;
   width: calc(52% - 80px);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-3-thumb {
     position: inherit;
     width: 100%;
@@ -6460,12 +6773,18 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-3-btns {
   margin-bottom: 190px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-3-btns {
     margin-bottom: 100px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-3-btns {
     margin-bottom: 40px;
   }
@@ -6493,17 +6812,23 @@ body.tp-magic-cursor #magic-cursor {
   backdrop-filter: blur(40px);
   border-radius: 26px;
   padding: 2px 15px;
-  background: linear-gradient(140deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
 }
 .tp-hero-4-content {
   padding: 237px 100px 60px 100px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-hero-4-content {
     padding: 237px 40px 60px 40px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-hero-4-content {
     padding: 140px 40px 60px 40px;
   }
@@ -6535,7 +6860,10 @@ body.tp-magic-cursor #magic-cursor {
   letter-spacing: -0.02em;
   text-align: center;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-5-title {
     font-size: 70px;
   }
@@ -6582,7 +6910,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-5-thumb-space {
   padding: 190px 0px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-5-thumb-space {
     padding: 100px 0px;
   }
@@ -6601,17 +6930,22 @@ body.tp-magic-cursor #magic-cursor {
   padding: 270px 40px 80px 75px;
   margin-right: 54px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-6-thumb {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-6-thumb {
     padding: 170px 30px 80px 35px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-7-text {
     margin-left: 0;
   }
@@ -6623,7 +6957,8 @@ body.tp-magic-cursor #magic-cursor {
   overflow: hidden;
   border-radius: 4px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-7-thumb {
     width: 300px;
     height: 100%;
@@ -6644,7 +6979,10 @@ body.tp-magic-cursor #magic-cursor {
   padding-top: 210px;
   padding-bottom: 115px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-7-spacing {
     padding-top: 100px;
   }
@@ -6692,12 +7030,16 @@ body.tp-magic-cursor #magic-cursor {
     padding: 30px 15px 15px 15px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-8-top-spacing {
     padding-top: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-8-avinew {
     padding-bottom: 0;
   }
@@ -6710,7 +7052,9 @@ body.tp-magic-cursor #magic-cursor {
     padding-top: 118px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-gsap-spacing {
     padding-top: 67px;
   }
@@ -6718,7 +7062,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-gsap-sta-spacing {
   padding-top: 192px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-gsap-sta-spacing {
     padding-top: 68px;
   }
@@ -6726,7 +7073,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-gsap-hr-spacing {
   padding-top: 190px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-gsap-hr-spacing {
     padding-top: 80px;
   }
@@ -6734,7 +7084,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-gsap-it-spacing {
   padding-top: 250px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-gsap-it-spacing {
     padding-top: 110px;
   }
@@ -6742,7 +7095,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-gsap-cpr-spacing {
   padding-top: 218px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-gsap-cpr-spacing {
     padding-top: 100px;
   }
@@ -6750,7 +7106,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-gsap-fin-spacing {
   padding-top: 236px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-gsap-fin-spacing {
     padding-top: 95px;
   }
@@ -6758,7 +7117,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-hero-gsap-team-spacing {
   padding-top: 145px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-hero-gsap-team-spacing {
     padding-top: 78px;
   }
@@ -6813,7 +7175,10 @@ body.tp-magic-cursor #magic-cursor {
 /*----------------------------------------*/
 /*  7.11 feature start
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-feature-item br {
     display: none;
   }
@@ -6827,18 +7192,29 @@ body.tp-magic-cursor #magic-cursor {
   padding-top: 56px;
   padding-bottom: 55px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-3-wrap {
     padding-right: 0;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-3-wrap {
     padding-left: 0;
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-3-wrap.md-space {
     padding-bottom: 0;
   }
@@ -6853,7 +7229,11 @@ body.tp-magic-cursor #magic-cursor {
   border-radius: 50%;
   flex: 0 0 auto;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-3-wrap span {
     margin-bottom: 30px;
   }
@@ -6868,13 +7248,31 @@ body.tp-magic-cursor #magic-cursor {
   text-align: center;
   line-height: 48px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-7-item {
     margin-right: 40px;
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px) and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 1200px) and (max-width: 1399px) and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 1200px) and (max-width: 1399px) and (max-width: 574.98px), only screen and (min-width: 992px) and (max-width: 1199px) and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 992px) and (max-width: 1199px) and (max-width: 574.98px), only screen and (min-width: 768px) and (max-width: 991px) and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 768px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) and (max-width: 574.98px), only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 576px) and (max-width: 767px) and (max-width: 574.98px), only screen and (max-width: 574.98px) and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 574.98px) and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) and (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px) and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) and (min-width: 576px) and (max-width: 767px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) and (max-width: 574.98px),
+  only screen and (min-width: 992px) and (max-width: 1199px) and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 992px) and (max-width: 1199px) and (min-width: 576px) and (max-width: 767px),
+  only screen and (min-width: 992px) and (max-width: 1199px) and (max-width: 574.98px),
+  only screen and (min-width: 768px) and (max-width: 991px) and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 768px) and (max-width: 991px) and (min-width: 576px) and (max-width: 767px),
+  only screen and (min-width: 768px) and (max-width: 991px) and (max-width: 574.98px),
+  only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) and (min-width: 576px) and (max-width: 767px),
+  only screen and (min-width: 576px) and (max-width: 767px) and (max-width: 574.98px),
+  only screen and (max-width: 574.98px) and (min-width: 768px) and (max-width: 991px),
+  only screen and (max-width: 574.98px) and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) and (max-width: 574.98px) {
   .tp-feature-7-item {
     margin-right: 0;
   }
@@ -6888,13 +7286,19 @@ body.tp-magic-cursor #magic-cursor {
   padding-right: 50px;
   margin-right: 30px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-7-item-border {
     padding-right: 20px;
     margin-right: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-7-item-border {
     padding-right: 0;
     margin-right: 0;
@@ -6910,7 +7314,11 @@ body.tp-magic-cursor #magic-cursor {
   flex: 0 0 auto;
   transition: all 0.4s ease;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-7-icon {
     margin-bottom: 30px;
   }
@@ -6932,7 +7340,10 @@ body.tp-magic-cursor #magic-cursor {
   border: 1px solid rgba(31, 49, 48, 0.1);
   padding: 40px 40px 20px 40px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-feature-8-item {
     padding: 30px 20px 10px 20px;
   }
@@ -6985,7 +7396,10 @@ body.tp-magic-cursor #magic-cursor {
     padding: 70px 70px 70px 73px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-about-content {
     padding: 30px 30px 30px 33px;
   }
@@ -6998,12 +7412,19 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-bottom-content {
   margin-left: 129px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-bottom-content {
     margin-left: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-bottom-content {
     padding-bottom: 0;
   }
@@ -7030,17 +7451,28 @@ body.tp-magic-cursor #magic-cursor {
   overflow: hidden;
   margin-right: -44px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-bottom-right {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-bottom-right {
     padding: 45px 25px 92px 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-bottom-right {
     margin-right: 0;
   }
@@ -7071,12 +7503,15 @@ body.tp-magic-cursor #magic-cursor {
   margin-left: 44px;
   border-radius: 4px 0px 0px 4px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-bottom-video {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-bottom-video {
     padding: 120px 0px;
   }
@@ -7094,12 +7529,17 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-2-thumb {
   margin-right: -55px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-2-thumb {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-2-thumb {
     margin-right: 15px;
     margin-left: 15px;
@@ -7112,50 +7552,80 @@ body.tp-magic-cursor #magic-cursor {
   padding-left: 160px;
   padding-right: 200px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-2-content {
     padding-left: 60px;
     padding-right: 50px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-2-content {
     padding-left: 0;
     padding-right: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-2-content {
     margin-right: 15px;
     margin-left: 15px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-content {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-content {
     padding-top: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-info {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-info p br {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-info span br {
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-title-wrap {
     padding-bottom: 0;
   }
@@ -7170,7 +7640,10 @@ body.tp-magic-cursor #magic-cursor {
   padding: 60px 50px 54px 50px;
   border-radius: 50%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-list {
     margin-bottom: 30px;
   }
@@ -7188,7 +7661,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-3-top {
   height: 460px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-3-top img {
     height: 250px;
     object-fit: cover;
@@ -7197,12 +7671,17 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-4-thumb {
   margin-left: -27px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-4-thumb {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-4-thumb {
     margin-left: 0;
   }
@@ -7216,7 +7695,8 @@ body.tp-magic-cursor #magic-cursor {
   padding-left: 0;
   padding-right: 0;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-4-content {
     margin-left: 0;
     margin-right: 0;
@@ -7242,7 +7722,11 @@ body.tp-magic-cursor #magic-cursor {
   flex: 0 0 auto;
   background: var(--tp-common-white);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-4-count {
     margin-right: 0;
   }
@@ -7260,7 +7744,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-5-wrap {
   padding: 60px 60px 30px 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-5-wrap {
     padding: 30px 30px 0px 30px;
   }
@@ -7283,7 +7770,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-5-list-wrap {
   padding: 50px 40px 20px 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-5-list-wrap {
     padding: 20px 20px 20px 30px;
   }
@@ -7312,7 +7802,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-about-5-logo {
   margin-right: -40px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-5-logo {
     margin-right: -20px;
   }
@@ -7327,12 +7820,18 @@ body.tp-magic-cursor #magic-cursor {
   height: 100%;
   object-fit: cover;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-5-content {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-about-6-content br {
     display: none;
   }
@@ -7344,7 +7843,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-service-content {
   padding: 0px 20px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-service-content {
     padding: 0px 15px;
   }
@@ -7369,7 +7871,10 @@ body.tp-magic-cursor #magic-cursor {
   transform: translateY(3px);
   flex: 0 0 auto;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-service-content h3 {
     font-size: 28px;
   }
@@ -7379,7 +7884,10 @@ body.tp-magic-cursor #magic-cursor {
   transition: all 0.5 ease;
   z-index: 1;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-service-item {
     padding: 15px 15px 20px 15px;
   }
@@ -7425,7 +7933,11 @@ body.tp-magic-cursor #magic-cursor {
   height: 80px;
   display: inline-block;
   backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
   transform: rotate(-180deg);
   z-index: 2;
 }
@@ -7444,7 +7956,11 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-service-2-content {
   backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
   left: 0;
   right: 30px;
   bottom: 0;
@@ -7481,7 +7997,9 @@ body.tp-magic-cursor #magic-cursor {
   opacity: 0;
   visibility: hidden;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-service-3-qube {
     width: 200px;
     height: 200px;
@@ -7516,12 +8034,21 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: -70px;
   padding: 40px 70px 40px 80px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-title-wrap {
     padding: 40px 30px 40px 30px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-title-wrap {
     margin-right: 0;
   }
@@ -7535,7 +8062,11 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: -80px;
   height: 100%;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-slider-thumb {
     margin-right: 0;
     margin-left: 0;
@@ -7552,17 +8083,28 @@ body.tp-magic-cursor #magic-cursor {
 .tp-service-4-content {
   padding: 75px 80px 40px 160px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-content {
     padding: 75px 30px 40px 100px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-content {
     padding: 75px 30px 40px 50px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-content {
     flex-direction: column;
   }
@@ -7599,7 +8141,9 @@ body.tp-magic-cursor #magic-cursor {
   line-height: 100px;
   flex: 0 0 auto;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-content .icons {
     margin-bottom: 30px;
   }
@@ -7614,12 +8158,15 @@ body.tp-magic-cursor #magic-cursor {
     left: -10px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-service-4-slide .tp-testimonial-2-navigation {
     left: -146px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-4-slide .tp-testimonial-2-navigation {
     left: -146px;
     left: 0;
@@ -7668,7 +8215,10 @@ body.tp-magic-cursor #magic-cursor {
   transform: rotate(0) scale(1.14);
   transition: transform 0.5s ease-out;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-service-8-item {
     margin-right: 0;
   }
@@ -7730,7 +8280,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-industry-7-spacing {
   padding-bottom: 430px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-industry-7-spacing {
     padding-bottom: 90px;
   }
@@ -7747,7 +8300,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-testimonial-bg {
   height: 740px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-testimonial-bg {
     height: 800px;
   }
@@ -7765,7 +8319,10 @@ body.tp-magic-cursor #magic-cursor {
   height: 100%;
   z-index: 2;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-testimonial-bottom {
     padding-top: 100px;
   }
@@ -7773,7 +8330,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-testimonial-bottom-wrap {
   padding: 60px 80px 30px 60px;
   backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
   border-radius: 4px;
 }
 @media (max-width: 574.98px) {
@@ -7798,7 +8359,10 @@ body.tp-magic-cursor #magic-cursor {
   width: 70px;
   position: relative;
 }
-.tp-testimonial-bottom-thumb-wrap .swiper-slide .tp-testimonial-bottom-thumb img {
+.tp-testimonial-bottom-thumb-wrap
+  .swiper-slide
+  .tp-testimonial-bottom-thumb
+  img {
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   cursor: pointer;
@@ -7848,7 +8412,10 @@ body.tp-magic-cursor #magic-cursor {
   padding: 61px 10px 62px 10px;
   margin-right: 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-2-left {
     margin-right: 0;
   }
@@ -7899,7 +8466,8 @@ body.tp-magic-cursor #magic-cursor {
   border-color: var(--tp-grey-3);
   color: var(--tp-common-white);
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-2-slider h2 {
     margin-right: 50px;
   }
@@ -7910,7 +8478,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-testimonial-3-left {
   margin-right: 65px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-3-left {
     margin-right: 0;
   }
@@ -7932,13 +8504,20 @@ body.tp-magic-cursor #magic-cursor {
     margin-right: 80px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-3-slider {
     margin-right: 15px;
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-3-slider {
     margin-left: 15px;
   }
@@ -7950,7 +8529,11 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-testimonial-3-content .tp-btn-xl {
   backdrop-filter: blur(40px);
-  background: linear-gradient(140deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
 }
 .tp-testimonial-4-border {
   position: relative;
@@ -7976,7 +8559,10 @@ body.tp-magic-cursor #magic-cursor {
   left: -145px;
   bottom: 44%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-4-wrap .tp-testimonial-2-navigation {
     position: inherit;
     margin-top: 30px;
@@ -7996,7 +8582,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-testimonial-4-wrap .tp-testimonial-3-left {
   margin-right: 80px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-4-wrap .tp-testimonial-3-left {
     margin-right: 20px;
     margin-left: 20px;
@@ -8011,12 +8600,20 @@ body.tp-magic-cursor #magic-cursor {
     margin-left: 80px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-4-wrap .tp-testimonial-3-slider {
     margin-left: 20px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-4-title {
     margin-right: 0 !important;
     font-size: 45px;
@@ -8045,7 +8642,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-testimonial-author-clients img {
   flex: 0 0 auto;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-testimonial-author-content {
     margin-left: 0;
   }
@@ -8073,12 +8673,16 @@ body.tp-magic-cursor #magic-cursor {
 .tp-project-content {
   margin-left: 300px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-project-content {
     margin-left: 150px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-project-content {
     margin-left: 0;
   }
@@ -8091,7 +8695,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-project-thumb-wrap {
   margin-left: 130px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-project-thumb-wrap {
     margin-left: 0;
   }
@@ -8132,7 +8740,8 @@ body.tp-magic-cursor #magic-cursor {
   transition: all 0.4s ease;
   border-top: 0;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-project-2-content {
     padding: 35px 30px 30px 25px;
   }
@@ -8203,7 +8812,9 @@ body.tp-magic-cursor #magic-cursor {
 .tp-project-4-bg {
   padding: 140px 130px 140px 130px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-project-4-bg {
     padding: 100px 30px 100px 30px;
   }
@@ -8219,11 +8830,17 @@ body.tp-magic-cursor #magic-cursor {
 .tp-project-4-para {
   backdrop-filter: blur(40px);
   --webkit-backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 50%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 50%
+  );
   width: 440px;
   padding: 55px 70px 40px 50px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-project-4-para {
     margin-bottom: 30px;
   }
@@ -8265,7 +8882,9 @@ body.tp-magic-cursor #magic-cursor {
     padding: 30px 30px 5px 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-project-details-info-item.mr-115 {
     margin-right: 70px;
   }
@@ -8299,12 +8918,16 @@ body.tp-magic-cursor #magic-cursor {
   margin-left: -33px;
   margin-right: -40px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-progress-content {
     padding: 70px 40px 70px 40px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-progress-content {
     margin-left: 0;
     margin-right: 0;
@@ -8319,7 +8942,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-progress-bar-wrap {
   padding: 100px 80px 100px 70px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-progress-bar-wrap {
     padding: 60px 30px 60px 30px;
   }
@@ -8367,12 +8993,16 @@ body.tp-magic-cursor #magic-cursor {
 .tp-benifits-content {
   padding-left: 225px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px) {
   .tp-benifits-content {
     padding-left: 125px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-benifits-content {
     padding-left: 0;
   }
@@ -8412,7 +9042,9 @@ body.tp-magic-cursor #magic-cursor {
     margin-left: 15px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-benifits-form-wrap {
     margin-left: 0;
   }
@@ -8430,7 +9062,10 @@ body.tp-magic-cursor #magic-cursor {
   text-align: center;
   flex: 0 0 auto;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-benifits-form-content p br {
     display: none;
   }
@@ -8468,13 +9103,22 @@ body.tp-magic-cursor #magic-cursor {
   right: 130px;
   bottom: 130px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-benifits-4-shape {
     right: 0;
     bottom: 0;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-benifits-4-thumb {
     margin-right: 0;
   }
@@ -8497,7 +9141,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-benifits-6-thumb {
   margin-left: -115px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-benifits-6-thumb {
     margin-left: 0;
   }
@@ -8579,7 +9226,10 @@ body.tp-magic-cursor #magic-cursor {
   padding: 50px 50px 50px 50px;
   transition: all 0.4s ease;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-success-6-wrap {
     padding: 30px 30px 30px 30px;
   }
@@ -8607,15 +9257,23 @@ body.tp-magic-cursor #magic-cursor {
   border-radius: 4px 0 0 4px;
   width: 570px;
   backdrop-filter: blur(20px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
   padding: 140px 130px 285px 140px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-success-7-content {
     padding: 90px 90px 90px 90px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-success-7-content {
     width: 100%;
   }
@@ -8628,7 +9286,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-success-7-spacing {
   margin-top: -220px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-success-7-spacing {
     margin-top: 0;
   }
@@ -8668,7 +9329,11 @@ body.tp-magic-cursor #magic-cursor {
   height: 8px;
   background: var(--tp-theme-primary);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-success-8-chart {
     margin-left: 0;
   }
@@ -8678,7 +9343,10 @@ body.tp-magic-cursor #magic-cursor {
     display: none;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-success-8-thumb {
     margin-right: 0;
   }
@@ -8702,7 +9370,11 @@ body.tp-magic-cursor #magic-cursor {
   text-align: right;
   margin-right: -65px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-team-thumb {
     margin-right: 0;
   }
@@ -8739,20 +9411,24 @@ body.tp-magic-cursor #magic-cursor {
   background: var(--tp-theme-primary);
   color: var(--tp-common-white);
 }
-.tp-team-2-social a, .tp-team-2-social .icons {
+.tp-team-2-social a,
+.tp-team-2-social .icons {
   -webkit-transition: 0.3s cubic-bezier(0.12, 0, 0.39, 0);
   transition: 0.3s cubic-bezier(0.12, 0, 0.39, 0);
   z-index: 1;
 }
-.tp-team-2-social a:hover, .tp-team-2-social .icons:hover {
+.tp-team-2-social a:hover,
+.tp-team-2-social .icons:hover {
   color: var(--tp-common-white);
 }
-.tp-team-2-social a:hover span, .tp-team-2-social .icons:hover span {
+.tp-team-2-social a:hover span,
+.tp-team-2-social .icons:hover span {
   -webkit-transform: scale(1);
   transform: scale(1);
   opacity: 1;
 }
-.tp-team-2-social a span, .tp-team-2-social .icons span {
+.tp-team-2-social a span,
+.tp-team-2-social .icons span {
   display: block;
   border-radius: 100%;
   height: 100%;
@@ -8801,7 +9477,11 @@ body.tp-magic-cursor #magic-cursor {
   bottom: 0;
   content: "";
   left: 0;
-  background: linear-gradient(180deg, rgba(31, 49, 48, 0) 0%, rgba(31, 49, 48, 0.85) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(31, 49, 48, 0) 0%,
+    rgba(31, 49, 48, 0.85) 100%
+  );
   width: 100%;
   height: 100%;
   border-radius: 4px;
@@ -8882,7 +9562,12 @@ body.tp-magic-cursor #magic-cursor {
   letter-spacing: -0.02em;
   color: var(--tp-theme-primary);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-4-title-wrap p br {
     display: none;
   }
@@ -8915,7 +9600,10 @@ body.tp-magic-cursor #magic-cursor {
   position: sticky;
   top: 100px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-4-main-wrap {
     margin-left: 0;
   }
@@ -8941,7 +9629,9 @@ body.tp-magic-cursor #magic-cursor {
   float: right;
   padding-bottom: 60px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-5-thumb-inner {
     width: 200px;
   }
@@ -8950,7 +9640,10 @@ body.tp-magic-cursor #magic-cursor {
   margin-left: 80px;
   margin-right: 145px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-details-content {
     margin-right: 0;
     margin-left: 0;
@@ -8993,12 +9686,17 @@ body.tp-magic-cursor #magic-cursor {
 .tp-team-details-ratings-wrap .ratings i {
   color: var(--tp-common-yellow);
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-expreance-title-wrap br {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-expreance-right {
     margin-right: 0;
   }
@@ -9006,7 +9704,9 @@ body.tp-magic-cursor #magic-cursor {
 .tp-team-expreance-timeline {
   border-right: 1px solid var(--tp-theme-primary);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-expreance-timeline {
     padding-right: 30px;
   }
@@ -9014,7 +9714,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-team-expreance-timeline-item {
   position: relative;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-expreance-timeline-item {
     margin-bottom: 50px;
   }
@@ -9029,7 +9730,9 @@ body.tp-magic-cursor #magic-cursor {
   right: -116px;
   top: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-team-expreance-timeline-item::before {
     right: -36px;
   }
@@ -9051,12 +9754,19 @@ body.tp-magic-cursor #magic-cursor {
 .tp-faq-content {
   padding-left: 60px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-content {
     padding-left: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-height {
     height: auto !important;
   }
@@ -9065,7 +9775,9 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: 20px;
   height: 100%;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-thumb {
     margin-right: 0;
   }
@@ -9079,19 +9791,24 @@ body.tp-magic-cursor #magic-cursor {
   padding-right: 130px;
   margin-left: 20px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-faq-wrapper {
     padding-right: 30px;
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-wrapper {
     padding-right: 12px;
     padding-left: 12px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-faq-wrapper {
     padding-left: 12px;
   }
@@ -9129,7 +9846,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-faq-wrapper .accordion-body {
   padding: 0px 120px 35px 30px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  (max-width: 574.98px) {
   .tp-faq-wrapper .accordion-body {
     padding: 0px 30px 35px 30px;
   }
@@ -9179,7 +9897,11 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-faq-2-author-ratings {
   backdrop-filter: blur(40px);
-  background: linear-gradient(140deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  background: linear-gradient(
+    140deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
   display: inline-block;
   border-radius: 15px;
   padding: 2px 12px;
@@ -9199,7 +9921,12 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: 10px;
   margin-left: 30px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-2-wrap .tp-faq-content {
     margin-right: 0;
     margin-left: 0;
@@ -9239,29 +9966,44 @@ body.tp-magic-cursor #magic-cursor {
 .tp-faq-2-wrap .tp-faq-wrapper .accordion-btn::after {
   background-color: var(--tp-theme-primary);
 }
-.tp-faq-2-wrap .tp-faq-wrapper .accordion-button:not(.collapsed) .accordion-btn::before {
+.tp-faq-2-wrap
+  .tp-faq-wrapper
+  .accordion-button:not(.collapsed)
+  .accordion-btn::before {
   background-color: var(--tp-theme-primary);
 }
-.tp-faq-2-wrap .tp-faq-wrapper .accordion-button:not(.collapsed) .accordion-btn::after {
+.tp-faq-2-wrap
+  .tp-faq-wrapper
+  .accordion-button:not(.collapsed)
+  .accordion-btn::after {
   background-color: var(--tp-theme-primary);
 }
 .tp-faq-3-links-inner {
   border-radius: 4px;
   width: 260px;
   backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
   padding: 30px 30px 12px 30px;
 }
 .tp-faq-3-wrapper {
   padding-right: 0;
   margin-left: 65px !important;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-3-wrapper {
     margin-left: 0 !important;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-3-wrapper {
     padding-left: 0;
   }
@@ -9311,7 +10053,11 @@ body.tp-magic-cursor #magic-cursor {
   display: inline-block;
   background: #f6f6f6;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-3-wrap {
     margin-right: 0;
   }
@@ -9332,10 +10078,16 @@ body.tp-magic-cursor #magic-cursor {
   padding: 25px 30px;
   font-size: 20px;
 }
-.tp-faq-3-wrap .tp-faq-wrapper .accordion-button:not(.collapsed) .tp-faq-3-subtitle {
+.tp-faq-3-wrap
+  .tp-faq-wrapper
+  .accordion-button:not(.collapsed)
+  .tp-faq-3-subtitle {
   display: inline-block !important;
 }
-.tp-faq-3-wrap .tp-faq-wrapper .accordion-button:not(.collapsed) .tp-faq-3-subtitle-2 {
+.tp-faq-3-wrap
+  .tp-faq-wrapper
+  .accordion-button:not(.collapsed)
+  .tp-faq-3-subtitle-2 {
   display: none;
 }
 @media (max-width: 574.98px) {
@@ -9343,12 +10095,17 @@ body.tp-magic-cursor #magic-cursor {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-4-thumb .thumb {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-4-thumb .thumb {
     margin-bottom: 100px;
   }
@@ -9367,7 +10124,8 @@ body.tp-magic-cursor #magic-cursor {
   padding-right: 0;
   margin-left: 0;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-4-wrapper {
     padding-left: 0;
   }
@@ -9419,13 +10177,19 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: -60px;
   margin-left: 60px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-5-wrapper {
     margin-left: 0;
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px) {
   .tp-faq-5-wrapper {
     padding: 30px 30px 30px 30px;
   }
@@ -9543,7 +10307,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-faq-check {
   margin-left: 65px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-faq-check {
     margin-left: 0;
   }
@@ -9559,7 +10326,10 @@ body.tp-magic-cursor #magic-cursor {
   background: var(--tp-common-white-2);
   border-color: var(--tp-common-white-2);
 }
-.tp-faq-check .tp-faq-5-wrapper .tp-faq-wrapper .accordion-button:not(.collapsed) {
+.tp-faq-check
+  .tp-faq-5-wrapper
+  .tp-faq-wrapper
+  .accordion-button:not(.collapsed) {
   border-top: 1px solid rgba(31, 49, 48, 0.08);
 }
 
@@ -9576,7 +10346,10 @@ body.tp-magic-cursor #magic-cursor {
   left: 50%;
   transform: translateX(-50%);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-border-middle::before {
     display: none;
   }
@@ -9591,7 +10364,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-brands-wrap ul {
   column-count: 5;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-brands-wrap ul {
     column-count: 2;
   }
@@ -9603,7 +10377,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-brands-wrap ul li:not(:last-child) {
   border-right: 1px solid rgba(31, 49, 48, 0.1);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-brands-wrap ul li:not(:last-child) {
     border: none;
   }
@@ -9682,7 +10457,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-pricing-content {
   padding: 35px 55px 48px 60px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-pricing-content {
     padding: 30px 28px 30px 30px;
   }
@@ -9694,7 +10474,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-pricing-wrap-2 {
   padding: 60px 60px 60px 60px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-pricing-wrap-2 {
     padding: 30px 28px 30px 30px;
   }
@@ -9708,7 +10493,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-pricing-wrap-3 {
   padding: 60px 48px 60px 60px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-pricing-wrap-3 {
     padding: 30px 28px 30px 30px;
   }
@@ -9747,7 +10537,9 @@ body.tp-magic-cursor #magic-cursor {
   border: 1px solid rgba(31, 49, 48, 0.1);
   padding: 45px 50px 40px 50px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-pricing-5-item {
     padding: 25px 30px 20px 30px;
   }
@@ -9789,7 +10581,9 @@ body.tp-magic-cursor #magic-cursor {
 .tp-pricing-8-item {
   padding: 30px 40px 30px 40px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 574.98px) {
   .tp-pricing-8-item {
     padding: 20px 20px 20px 20px;
   }
@@ -9808,17 +10602,27 @@ body.tp-magic-cursor #magic-cursor {
 .tp-chose-middle-title {
   padding: 100px 60px 0px 60px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-middle-title {
     padding: 40px 60px 0px 60px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-middle-title {
     padding: 30px 30px 0px 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-middle-title h4 {
     color: var(--tp-common-white);
   }
@@ -9835,7 +10639,10 @@ body.tp-magic-cursor #magic-cursor {
   border: 2px solid white;
   backdrop-filter: blur(3px);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-middle-content {
     margin-right: 50px;
   }
@@ -9869,12 +10676,18 @@ body.tp-magic-cursor #magic-cursor {
   column-count: 2;
   margin-right: 150px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-work {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-work {
     column-count: 1;
   }
@@ -9882,12 +10695,17 @@ body.tp-magic-cursor #magic-cursor {
 .tp-chose-wrapper {
   border-right: 1px solid rgba(255, 255, 255, 0.15);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-wrapper {
     margin-right: 15px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-wrapper {
     margin-right: 0;
     border-right: 0;
@@ -9903,13 +10721,22 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: -160px;
   margin-left: 103px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-content {
     margin-right: 0;
     margin-left: 50px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-content {
     margin-left: 0;
   }
@@ -9919,7 +10746,9 @@ body.tp-magic-cursor #magic-cursor {
   transform: translateY(-50%);
   left: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-thumb.thumb-2 {
     height: 300px !important;
   }
@@ -9937,12 +10766,18 @@ body.tp-magic-cursor #magic-cursor {
     padding: 50px 40px 54px 60px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-3-awards {
     padding: 50px 30px 54px 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-3-awards {
     margin-left: 0;
     margin-right: 0;
@@ -9963,7 +10798,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-chose-3-title-wrap {
   margin-right: 50px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-3-title-wrap {
     margin-right: 0;
   }
@@ -9971,7 +10811,9 @@ body.tp-magic-cursor #magic-cursor {
 .tp-chose-3-slider {
   margin-left: 53px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-3-slider {
     margin-left: 0;
   }
@@ -9979,7 +10821,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-chose-3-slider-content {
   padding: 55px 60px 88px 60px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-3-slider-content {
     padding: 35px 30px 65px 30px;
   }
@@ -10001,7 +10848,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-chose-3-top {
   height: 417px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-chose-3-top img {
     height: 250px;
     object-fit: cover;
@@ -10015,7 +10863,8 @@ body.tp-magic-cursor #magic-cursor {
   padding-top: 190px;
   padding-bottom: 190px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-video-wrap {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -10026,7 +10875,11 @@ body.tp-magic-cursor #magic-cursor {
 }
 .tp-video-3-wrap .tp-video-bottom {
   backdrop-filter: blur(5px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 50%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.1) 50%
+  );
   border: none;
 }
 .tp-video-7-wrap {
@@ -10036,7 +10889,10 @@ body.tp-magic-cursor #magic-cursor {
   height: 100%;
   object-fit: cover;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-video-7-wrap {
     margin-right: 0;
   }
@@ -10079,13 +10935,15 @@ body.tp-magic-cursor #magic-cursor {
   padding-top: 265px;
   padding-bottom: 265px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-video-8-wrap {
     padding-top: 190px;
     padding-bottom: 190px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-video-8-wrap {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -10098,7 +10956,12 @@ body.tp-magic-cursor #magic-cursor {
 .tp-banner-content {
   padding: 70px 50px 50px 75px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-banner-content {
     padding: 70px 50px 50px 35px;
   }
@@ -10130,12 +10993,18 @@ body.tp-magic-cursor #magic-cursor {
 .tp-counter-3-wrap {
   padding: 44px 100px 75px 60px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-counter-3-wrap {
     padding: 34px 40px 35px 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-counter-3-wrap.md-space {
     margin-top: 0;
   }
@@ -10155,7 +11024,10 @@ body.tp-magic-cursor #magic-cursor {
   top: 0;
   right: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-counter-3-border::before {
     display: none;
   }
@@ -10170,7 +11042,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-counter-7-item {
   padding: 60px 50px 47px 60px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-counter-7-item {
     padding: 30px 30px 27px 30px;
   }
@@ -10208,7 +11084,11 @@ body.tp-magic-cursor #magic-cursor {
   padding: 17px 59px;
   transition: all 0.4s ease;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-3-tab ul li a {
     padding: 17px 40px;
   }
@@ -10227,13 +11107,17 @@ body.tp-magic-cursor #magic-cursor {
     margin-right: 20px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-3-counter {
     margin-right: 0;
     margin-bottom: 0;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-3-counter {
     padding: 35px 30px 25px 30px;
   }
@@ -10243,7 +11127,10 @@ body.tp-magic-cursor #magic-cursor {
     margin-left: 20px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-3-thumb {
     margin-left: 0;
   }
@@ -10293,17 +11180,26 @@ body.tp-magic-cursor #magic-cursor {
   transform: translateY(-50%);
   backdrop-filter: blur(40px);
   transition: all 0.4s ease;
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.4) 100%
+  );
 }
 .tp-process-4-wrap {
   padding: 55px 60px 60px 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-4-wrap {
     padding: 35px 20px 20px 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-4-thumb img {
     width: 100%;
   }
@@ -10346,18 +11242,27 @@ body.tp-magic-cursor #magic-cursor {
     padding-right: 100px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-7-content {
     padding-right: 20px;
     padding-left: 50px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-7-content {
     padding-left: 0px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-7-content {
     padding-left: 30px;
   }
@@ -10369,7 +11274,9 @@ body.tp-magic-cursor #magic-cursor {
 .tp-process-7-list {
   direction: ltr;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-7-list {
     padding-left: 30px;
   }
@@ -10444,7 +11351,10 @@ body.tp-magic-cursor #magic-cursor {
   border: 4px solid var(--tp-common-white);
   z-index: 3;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-8-item p br {
     display: none;
   }
@@ -10458,7 +11368,9 @@ body.tp-magic-cursor #magic-cursor {
   right: -29px;
   top: 30px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-process-8-angle {
     display: none;
   }
@@ -10500,12 +11412,20 @@ body.tp-magic-cursor #magic-cursor {
   padding: 364px 110px 62px 130px;
   border-radius: 0px 4px 4px 0px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-thumb {
     padding: 264px 30px 62px 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-thumb {
     margin-right: 0;
   }
@@ -10519,7 +11439,11 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: 170px;
   margin-left: 65px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-form-wrap {
     margin-right: 15px;
   }
@@ -10529,7 +11453,9 @@ body.tp-magic-cursor #magic-cursor {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-form-wrap {
     margin-left: 15px;
   }
@@ -10559,7 +11485,10 @@ body.tp-magic-cursor #magic-cursor {
 .tp-join-4-item {
   padding: 58px 60px 37px 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-4-item {
     padding: 28px 30px 27px 30px;
   }
@@ -10585,7 +11514,10 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: 0;
   padding: 55px 60px 60px 60px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-4-form {
     padding: 28px 30px 27px 30px;
   }
@@ -10607,7 +11539,10 @@ body.tp-magic-cursor #magic-cursor {
   margin-right: 0;
   margin-left: 55px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-5-form-wrap {
     margin-left: 0;
   }
@@ -10619,7 +11554,9 @@ body.tp-magic-cursor #magic-cursor {
   width: 47%;
   height: 100%;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-5-thumb {
     position: inherit;
     width: 100%;
@@ -10633,17 +11570,25 @@ body.tp-magic-cursor #magic-cursor {
   margin-left: -54px;
   margin-right: 0;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-6-form p br {
     display: none;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-6-form {
     padding: 28px 30px 27px 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-6-form {
     margin-left: 0;
   }
@@ -10659,7 +11604,9 @@ body.tp-magic-cursor #magic-cursor {
   right: 0;
   width: 41%;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-details-list {
     position: inherit;
     width: 100%;
@@ -10670,7 +11617,10 @@ body.tp-magic-cursor #magic-cursor {
   margin-left: 0;
   margin-right: 55px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-join-details-form {
     margin-right: 0;
   }
@@ -10682,7 +11632,11 @@ body.tp-magic-cursor #magic-cursor {
 .tp-policy-4-wrap {
   padding: 80px 80px 50px 80px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-policy-4-wrap {
     padding: 20px 20px 0px 20px;
   }
@@ -10751,7 +11705,11 @@ body.tp-magic-cursor #magic-cursor {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-cta-3-title-wrap p br {
     display: none;
   }
@@ -10764,7 +11722,11 @@ body.tp-magic-cursor #magic-cursor {
   padding: 76px 80px 55px 80px;
   backdrop-filter: blur(20px);
   border-radius: 4px;
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.21) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(255, 255, 255, 0.21) 100%
+  );
 }
 @media (max-width: 574.98px) {
   .tp-contact-7-wrap {
@@ -10827,12 +11789,15 @@ body.tp-magic-cursor #magic-cursor {
   padding-left: 60px;
   padding-bottom: 60px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-contact-slider-thumb {
     padding-top: 200px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-contact-slider-thumb {
     padding-left: 30px;
   }
@@ -10905,7 +11870,9 @@ body.tp-magic-cursor #magic-cursor {
   margin-left: 50px;
   margin-right: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-contact-inner-wrap {
     margin-left: 0;
   }
@@ -10926,12 +11893,14 @@ body.tp-magic-cursor #magic-cursor {
   width: 100%;
   filter: saturate(0);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-contact-map-box iframe {
     height: 500px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-contact-map-box iframe {
     height: 300px;
   }
@@ -10944,19 +11913,25 @@ body.tp-magic-cursor #magic-cursor {
   font-weight: 800;
   font-size: 520px;
   letter-spacing: -0.02em;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 85%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 85%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 0;
   line-height: 1;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-error-title {
     font-size: 320px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-error-title {
     font-size: 220px;
   }
@@ -10969,7 +11944,8 @@ body.tp-magic-cursor #magic-cursor {
 .tp-error-subtitle {
   margin-top: -120px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-error-subtitle {
     margin-top: -40px;
     font-size: 40px;
@@ -10995,12 +11971,14 @@ body.tp-magic-cursor #magic-cursor {
 .tp-comeingsoon-title {
   font-size: 140px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-comeingsoon-title {
     font-size: 100px;
   }
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-comeingsoon-title {
     font-size: 80px;
   }
@@ -11026,12 +12004,18 @@ body.tp-magic-cursor #magic-cursor {
   width: 160px;
   height: 160px;
   backdrop-filter: blur(20px);
-  background: linear-gradient(209deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.02) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
   padding-top: 55px;
   margin: 0 10px;
   margin-bottom: 15px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-comeingsoon-countdown ul li {
     width: 120px;
     height: 120px;
@@ -11073,7 +12057,8 @@ body.tp-magic-cursor #magic-cursor {
   padding-top: 170px;
   padding-bottom: 70px;
 }
-@media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 574.98px) {
+@media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 574.98px) {
   .tp-comeingsoon-content {
     padding-top: 100px;
   }
